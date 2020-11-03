@@ -1,14 +1,16 @@
-#include <vector>
+﻿#include <vector>
 #include <iostream>
-
 #include <map>
+
+// 给定一个整数数组 nums 和一个目标值 target，请你在该数组中找出和为目标值的那 两个 整数，并返回他们的数组下标。
+// 你可以假设每种输入只会对应一个答案。但是，数组中同一个元素不能使用两遍。
 
 using namespace std;
 
 class Solution {
 public:
 	vector<int> twoSum(vector<int>& nums, int target) {
-		// һ���ϣ��
+		// 一遍哈希表
 		map<int, int> a;
 		for (int i = 0; i < nums.size(); i++)
 		{
@@ -22,31 +24,31 @@ public:
 	}
 };
 
-int main() {
-	Solution temp;
-	vector<int> nums;
-	vector<int> res;
-	nums.push_back(2);
-	nums.push_back(7);
-	nums.push_back(11);
-	nums.push_back(15);
-	int target = 9;
-	res = temp.twoSum(nums, target);
-	for (vector<int>::iterator j = res.begin(); j != res.end(); j++) {
-		cout << (*j) << endl;
-	}
-}
+//int main() {
+//	Solution temp;
+//	vector<int> nums;
+//	vector<int> res;
+//	nums.push_back(2);
+//	nums.push_back(7);
+//	nums.push_back(11);
+//	nums.push_back(15);
+//	int target = 9;
+//	res = temp.twoSum(nums, target);
+//	for (vector<int>::iterator j = res.begin(); j != res.end(); j++) {
+//		cout << (*j) << endl;
+//	}
+//}
 
 
 
 /*
- * ��������
+ * 暴力法：
 	vector<int> twoSum(vector<int>& nums, int target) {
 
 		int i, j;
 
-		// i��0��ʼ��j��i+1��ʼ
-		// i������ nums.size() - 1
+		// i从0开始，j从i+1开始
+		// i最多等于 nums.size() - 1
 		for (i = 0; i < nums.size() - 1; i++) {
 			for (j = i + 1; j < nums.size(); j++) {
 				if (nums[i] + nums[j] == target) {
@@ -62,7 +64,7 @@ int main() {
 
 
 /*
- * �����ϣ��
+ * 两遍哈希表
 vector<int> twoSum(vector<int>& nums, int target) {
 		int p = 0;
 		int q = 0;
