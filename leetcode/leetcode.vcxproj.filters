@@ -24,5 +24,8 @@
     <ClCompile Include="整数反转.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="回文数.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

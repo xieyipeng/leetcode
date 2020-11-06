@@ -33,10 +33,10 @@ public:
 };
 
 
-int main() {
-	Solution temp;
-	std::cout << temp.reverse(-45123) << std::endl;
-}
+//int main() {
+//	Solution temp;
+//	std::cout << temp.reverse(-45123) << std::endl;
+//}
 
 /*
 		if (x > 2147483647) {

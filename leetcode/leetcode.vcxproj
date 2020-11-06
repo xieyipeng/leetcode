@@ -153,6 +153,7 @@
   <ItemGroup>
     <ClCompile Include="leetcode.cpp" />
     <ClCompile Include="两数之和.cpp" />
+    <ClCompile Include="回文数.cpp" />
     <ClCompile Include="整数反转.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
