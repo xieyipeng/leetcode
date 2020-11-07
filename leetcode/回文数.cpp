@@ -39,11 +39,11 @@ public:
 };
 
 
-int main() {
-	Solution temp;
-	std::cout << temp.isPalindrome(12321) << std::endl;
-	return 0;
-}
+//int main() {
+//	Solution temp;
+//	std::cout << temp.isPalindrome(12321) << std::endl;
+//	return 0;
+//}
 
 
 /*
