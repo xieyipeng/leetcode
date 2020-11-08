@@ -33,11 +33,12 @@ public:
 	}
 };
 
-int main() {
-	Solution temp;
-	std::cout << temp.romanToInt("MCMXCIV") << std::endl;
-	return 0;
-}
+//int main() {
+//	Solution temp;
+//	std::cout << temp.romanToInt("MCMXCIV") << std::endl;
+//	return 0;
+//}
+
 /*
  * ÐÂµÄmap£º
 		unordered_map<char, int> base = { {'I', 1},{'V', 5},{'X', 10},{'L', 50},{'C', 100},{'D', 500},{'M', 1000} };

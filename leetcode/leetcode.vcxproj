@@ -155,6 +155,7 @@
     <ClCompile Include="两数之和.cpp" />
     <ClCompile Include="回文数.cpp" />
     <ClCompile Include="整数反转.cpp" />
+    <ClCompile Include="最长公共前缀.cpp" />
     <ClCompile Include="罗马数字转整数.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
