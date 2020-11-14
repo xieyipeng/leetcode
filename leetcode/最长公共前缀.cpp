@@ -48,16 +48,16 @@ public:
 	}
 };
 
-int main() {
-	vector<string> vt_str;
-
-	vt_str.push_back("flower");
-	vt_str.push_back("flower");
-	vt_str.push_back("flower");
-	vt_str.push_back("flower");
-	vt_str.push_back("flower");
-
-	Solution temp;
-	std::cout << "res: " << temp.longestCommonPrefix(vt_str) << std::endl;
-	return 0;
-}
+//int main() {
+//	vector<string> vt_str;
+//
+//	vt_str.push_back("flower");
+//	vt_str.push_back("flower");
+//	vt_str.push_back("flower");
+//	vt_str.push_back("flower");
+//	vt_str.push_back("flower");
+//
+//	Solution temp;
+//	std::cout << "res: " << temp.longestCommonPrefix(vt_str) << std::endl;
+//	return 0;
+//}

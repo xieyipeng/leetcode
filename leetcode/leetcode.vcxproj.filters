@@ -33,5 +33,11 @@
     <ClCompile Include="最长公共前缀.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="有效的括号.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="合并两个有序链表.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
